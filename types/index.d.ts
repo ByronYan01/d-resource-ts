@@ -1,0 +1,31 @@
+export * from "./utils";
+import type { DragTargetFuc, JudgeFuc, ReadFuc, ValidFuc, FilterFuc, ResHandleOption } from "./types";
+import { ModeType } from "./types";
+export declare class ResHandle {
+    targetDom: HTMLElement;
+    dragoverFuc: DragTargetFuc;
+    dragleaveFuc: DragTargetFuc;
+    beforeReadFuc: JudgeFuc;
+    readDataFuc: ReadFuc;
+    validFuc: ValidFuc;
+    filterFuc: FilterFuc;
+    mode: ModeType;
+    onlyFile: boolean;
+    private bindFuc;
+    private targetOverFlag;
+    constructor(options: ResHandleOption);
+    init(): void;
+    destroy(): void;
+    private mouseFuc;
+    private DragFuc;
+    private getDrapFile;
+    private pasteFuc;
+    private errHanlder;
+    private addDataTransfer;
+    private getContent;
+    private ifPushValid;
+    private pushItem;
+    private entryFileHandler;
+    private getFileSystemEntryTree;
+    private getFileSystemEntryArray;
+}

@@ -1,6 +1,6 @@
 {
   "name": "d-resource-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "读取资源管理相关工具",
   "main": "dist/d-resource.cjs.js",
   "module": "dist/d-resource.es.js",

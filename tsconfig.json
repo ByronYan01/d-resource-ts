@@ -21,6 +21,6 @@
     "paths": {},
     // "types": ["node", "vite/client"]
   },
-  "exclude": ["**/dist/**/*", "**/node_modules/**/*"],
+  "exclude": ["dist/**/*", "node_modules/**/*"],
   "include": ["src"]
 }

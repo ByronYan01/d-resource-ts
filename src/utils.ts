@@ -1,13 +1,6 @@
 import type {
   Fuc,
   ComObj,
-  JudgeFuc,
-  ReadFuc,
-  ValidFuc,
-  FilterFuc,
-  FileSystemEntry,
-  ResHandleOption,
-  BlockContent,
   ResItem,
   TreeList,
 } from "./types";
